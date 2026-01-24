@@ -12,6 +12,10 @@ public class String_VS_StringBuilder
 		StringBuilder sb = new StringBuilder("Java");
 		sb.append("World");
 		System.out.println("StringBuilder : "+sb);
+		
+		StringBuffer sb1 = new StringBuffer("Hello");
+		sb1.append("Java");
+		System.out.println("StringBuffer : "+sb1);
 	}
 	
 }
